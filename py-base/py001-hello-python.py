@@ -1,1 +1,1 @@
-print "你好世界！"
+print("python切换版本")
