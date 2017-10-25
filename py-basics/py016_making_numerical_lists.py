@@ -17,3 +17,4 @@ print("\n")
 # 打印1~10内的偶数
 even_number = list(range(2, 11, 2))
 print(even_number)
+
