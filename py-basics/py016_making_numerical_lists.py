@@ -10,6 +10,7 @@
 # 打印1-5之间的数字
 for num in range(1, 6):
     print(num)
+
 print("\n")
 
 # range 指定步长
