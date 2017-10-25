@@ -20,3 +20,7 @@ print(square_list)
 print(sum(square_list))  # 总和
 print(min(square_list))  # 最小值
 print(max(square_list))  # 最大值
+
+# 上述情况的另一种简写
+squares = [value ** 2 for value in range(1, 11)]
+print(squares)
