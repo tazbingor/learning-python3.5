@@ -49,4 +49,43 @@ print("\n")
 # 由此可知,py中的==和!=只是在比较值
 
 
+# 5-2 更多的条件测试:
+# 检查两个字符串相等和不等。
+print("1" == "1")  # True
+print('1' == "1")  # True
+print('2' == '2')  # True
+print("\n")
 
+# 使用函数 lower()的测试。
+print("WEB".lower() == "WEB")  # false
+print("WEB".lower() == "web")  # True
+print("\n")
+
+# 检查两个数字相等、不等、大于、小于、大于等于和小于等于。
+print(1 == 2)  # false
+print(1 != 2)  # True
+print(1 > 2)  # false
+print(1 < 2)  # True
+print(1 >= 2)  # false
+print(1 <= 2)  # True
+print("\n")
+
+# 使用关键字 and 和 or 的测试。
+number_01 = 1
+number_02 = 2
+print(number1 == number2 and number1 < number2)  # False
+print(number1 != number2 and number1 < number2)  # True
+print("\n")
+
+print(number1 == number2 or number1 < number2)  # True
+print(number1 == number2 or number1 < number2)  # True
+print("\n")
+
+# 测试特定的值是否包含在列表中。
+three_body = ['叶文洁', '罗辑', '大史']
+print('程欣' in three_body)  # False
+print('罗辑' in three_body)  # True
+
+# 测试特定的值是否未包含在列表中。
+print('程欣' not in three_body)  # True
+print('罗辑' not in three_body)  # False
