@@ -1,2 +1,2 @@
 # rising-python
-python的扩展与学习
+python 3.5 的扩展与学习
