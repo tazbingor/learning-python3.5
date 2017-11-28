@@ -16,3 +16,5 @@ users = ['admin', 'billy', 'ruby', 'joker', 'woody']
 # 5-9 处理没有用户的情形:在为完成练习 5-8 编写的程序中,添加一条 if 语句,检 查用户名列表是否为空。
 # 如果为空,就打印消息“We need to find some users!”。 15
 # 删除列表中的所有用户名,确定将打印正确的消息。
+# file = open('py025_if_lists.py')
+# print(type(file))

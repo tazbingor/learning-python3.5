@@ -8,4 +8,14 @@
 '''
 字典
 '''
-#
+
+
+# test
+def python3Type(a: int, b: int) -> int:
+    return a + b
+
+
+print(python3Type(2, 2))
+print(python3Type('2','2'))
+# def python3File(file1: file):
+#     pass
